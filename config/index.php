@@ -1,3 +1,3 @@
 <?php
 
-config::displayConfig('share');
+configdb::displayConfig('share');
