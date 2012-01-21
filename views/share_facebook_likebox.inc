@@ -1,6 +1,6 @@
 <?php
 
-$share_url = get_module_ini('share_facebook_likebox_url');
+$share_url = config::getModuleIni('share_facebook_likebox_url');
 if (!$share_url) {
     $share_url = 'https://www.facebook.com/pages/coscmsorg/200609723314776';
 }
