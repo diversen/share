@@ -8,7 +8,4 @@ class share {
     }
     
 }
-function share_get_facebook_url () {
-    
-}
 

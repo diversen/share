@@ -1,0 +1,3 @@
+; if used as a sub module - this is the default template. 
+; you can override this in template of write your own.
+share_template = 'stackoverflow'
