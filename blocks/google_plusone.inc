@@ -6,4 +6,5 @@ function block_google_plusone () { ?>
 <!-- Place this tag where you want the +1 button to render -->
 <g:plusone size="small"></g:plusone>        
 </div>
-<? } ?>
+<?php }
+
