@@ -1,8 +1,4 @@
 <?php
 
-$_COS_LANG_MODULE['share_main_menu_title'] = 'Del';
-$_COS_LANG_MODULE['/share/blocks/google_plusone.inc-human'] = 'Google +1';
-$_COS_LANG_MODULE['/share/blocks/facebook_share.inc-human'] = 'Facebook del';
-$_COS_LANG_MODULE['/share/blocks/facebook_likebox.inc-human'] = 'Facebook Likebox';
-$_COS_LANG_MODULE['/share/blocks/github_share.inc-human'] = 'Github';
-$_COS_LANG_MODULE['share_stack_text'] = 'Del dette på ';
+$_COS_LANG_MODULE['Share'] = 'Del';
+$_COS_LANG_MODULE['share_config_description'] = 'Share-indstillinger';

@@ -5,7 +5,7 @@ $_INSTALL['PUBLIC_CLONE_URL'] = 'git://github.com/diversen/share.git';
 $_INSTALL['PRIVATE_CLONE_URL'] = 'git@github.com:diversen/share.git';
 
 $_INSTALL['MAIN_MENU_ITEM'] = array (
-    'title' => 'share_main_menu_title',
+    'title' => lang::translate('Share', null, array ('no_translate' => true)),
     'url' => '/share/config/index',
     'module_name' => 'share',
     'parent' => 0,
