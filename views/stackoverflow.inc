@@ -3,7 +3,7 @@ $url = config::getSchemeWithServerName();
 $url.= $vars['return_url'];
 
 if (empty($abstract)) {
-    $abstract = $subject;
+    $abstract = $vars['entity']['title'];
 }
 
 $email_abstract = $abstract . "\n\n" . $vars['return_url'];
