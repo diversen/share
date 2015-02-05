@@ -4,6 +4,8 @@ $url.= $vars['return_url'];
 
 if (!isset($vars['entity']['abstract'])) {
     $abstract = $vars['entity']['title'];
+} else {
+    $abstract = $vars['entity']['abstract'];
 }
 
 $email_abstract = $abstract . "\n\n" . $url;
