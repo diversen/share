@@ -2,7 +2,7 @@
 $url = config::getSchemeWithServerName();
 $url.= $vars['return_url'];
 
-if (empty($abstract)) {
+if (!isset($vars['entity']['abstract'])) {
     $abstract = $vars['entity']['title'];
 }
 
