@@ -10,7 +10,7 @@ $email_abstract = $abstract . "\n\n" . $url;
 
 $url = rawurlencode($url);
 $subject = rawurlencode($vars['entity']['title']);
-$abstract = rawurlencode($vars['entity']['abstract']);
+$abstract = rawurlencode($abstract);
 $email_abstract = rawurlencode($email_abstract);
 ?>    
 <?= lang::translate('share_stack_text') ?> 
