@@ -6,7 +6,7 @@ if (empty($abstract)) {
     $abstract = $vars['entity']['title'];
 }
 
-$email_abstract = $abstract . "\n\n" . $vars['return_url'];
+$email_abstract = $abstract . "\n\n" . $url;
 
 $url = rawurlencode($url);
 $subject = rawurlencode($vars['entity']['title']);
