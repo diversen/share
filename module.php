@@ -31,3 +31,5 @@ class share {
         return $str;
     }  
 }
+
+class share_module extends share {}
