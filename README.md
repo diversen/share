@@ -20,7 +20,7 @@ If you have container called 'blocks' you can enable the following blocks:
     blocks[] = "/modules/share/blocks/facebook_share.inc"
     blocks[] = "/modules/share/blocks/google_plusone.inc"
 
-These blocks can be manipulated on the web if you have the block_manip module 
+These blocks can be manipulated on the web if you have the `blocks` module 
 installed. 
 
 It also provides subModule actions through the `subModulePostContent` call. 
