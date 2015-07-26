@@ -13,7 +13,7 @@ class share {
      * @return strin $share string
      */
     public static function subModulePostContent($options) {       
-        $template = config::getModuleIni('share_template');
+        $template = conf::getModuleIni('share_template');
         $str = view::get('share', $template, $options);
         return $str;
     }

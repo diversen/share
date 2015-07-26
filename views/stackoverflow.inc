@@ -1,5 +1,5 @@
 <?php
-$url = config::getSchemeWithServerName();
+$url = conf::getSchemeWithServerName();
 $url.= $vars['return_url'];
 
 if (!isset($vars['entity']['abstract'])) {
