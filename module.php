@@ -1,5 +1,8 @@
 <?php
 
+use diversen\view;
+use diversen\conf;
+
 class share {
     /**
      * automatic subModulePostContent when module is enabled as sub module

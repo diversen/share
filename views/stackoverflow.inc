@@ -1,4 +1,8 @@
 <?php
+
+use diversen\conf;
+use diversen\lang;
+
 $url = conf::getSchemeWithServerName();
 $url.= $vars['return_url'];
 
