@@ -1,7 +1,7 @@
 <?php
 
-use diversen\view;
 use diversen\conf;
+use diversen\view;
 
 class share {
     /**
