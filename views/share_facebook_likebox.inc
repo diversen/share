@@ -1,5 +1,7 @@
 <?php
 
+use diversen\conf;
+
 $share_url = conf::getModuleIni('share_facebook_likebox_url');
 if (!$share_url) {
     $share_url = 'https://www.facebook.com/pages/coscmsorg/200609723314776';
