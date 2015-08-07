@@ -4,7 +4,7 @@ $LANG = array();
 
 // Translation of file modules/share/views/stackoverflow.inc
 
-$LANG['share_stack_text'] = 'share_stack_text';
+$LANG['Share this on: '] = 'Share this on: ';
 // Translation of file modules/share/system_lang.inc
 
 $LANG['share_config_description'] = 'share_config_description';
