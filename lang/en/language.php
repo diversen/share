@@ -1,7 +1,11 @@
 <?php
 
+$LANG = array();
 
-// Translation of file /modules/share/system_lang.inc
+// Translation of file modules/share/views/stackoverflow.inc
+
+$LANG['share_stack_text'] = 'share_stack_text';
+// Translation of file modules/share/system_lang.inc
 
 $LANG['share_config_description'] = 'share_config_description';
 $LANG['/share/blocks/github_share.inc-human'] = '/share/blocks/github_share.inc-human';

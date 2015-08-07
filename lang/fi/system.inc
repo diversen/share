@@ -1,8 +1,8 @@
 <?php
 
-$_COS_LANG_MODULE['share_config_description'] = 'Jakoasetukset';
-$_COS_LANG_MODULE['/share/blocks/github_share.inc-human'] = 'Github tähden box';
-$_COS_LANG_MODULE['/share/blocks/facebook_likebox.inc-human'] = 'Facebook kuten ruutuun';
-$_COS_LANG_MODULE['/share/blocks/facebook_likebox_js.inc-human'] = 'Facebook kuten ruutuun JS';
-$_COS_LANG_MODULE['/share/blocks/google_plusone.inc-human'] = 'Google ';
-$_COS_LANG_MODULE['/share/blocks/facebook_share.inc-human'] = 'Facebook Jaa';
+$LANG['share_config_description'] = 'Jakoasetukset';
+$LANG['/share/blocks/github_share.inc-human'] = 'Github tähden box';
+$LANG['/share/blocks/facebook_likebox.inc-human'] = 'Facebook kuten ruutuun';
+$LANG['/share/blocks/facebook_likebox_js.inc-human'] = 'Facebook kuten ruutuun JS';
+$LANG['/share/blocks/google_plusone.inc-human'] = 'Google ';
+$LANG['/share/blocks/facebook_share.inc-human'] = 'Facebook Jaa';
