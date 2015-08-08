@@ -2,7 +2,7 @@
 
 $LANG = array();
 
-$LANG['Share'] = 'Del';
+$LANG['Share '] = 'Del';
 $LANG['share_config_description'] = 'share_config_description';
 $LANG['/share/blocks/github_share.inc-human'] = 'github.com stjerner';
 $LANG['/share/blocks/facebook_likebox.inc-human'] = 'facebook.com box';
