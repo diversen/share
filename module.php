@@ -1,9 +1,11 @@
 <?php
 
+namespace modules\share;
+
 use diversen\conf;
 use diversen\view;
 
-class share {
+class module {
     /**
      * automatic subModulePostContent when module is enabled as sub module
      * in your share template all values should be rawurlencoded
@@ -15,9 +17,13 @@ class share {
      * 
      * @return strin $share string
      */
-    public static function subModulePostContent($options) {       
+    public static function subModulePostContent($options) {
+        if ($options['mode'] != 'view') {
+            return;
+        }
+        
         $template = conf::getModuleIni('share_template');
-        $str = view::get('share', $template, $options);
+        $str = view::get('share', $template, $options);        
         return $str;
     }
     
@@ -34,5 +40,3 @@ class share {
         return $str;
     }  
 }
-
-class share_module extends share {}

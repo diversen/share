@@ -3,8 +3,7 @@
 use diversen\conf;
 use diversen\lang;
 
-$url = conf::getSchemeWithServerName();
-$url.= $vars['return_url'];
+
 
 if (!isset($vars['entity']['abstract'])) {
     $abstract = $vars['entity']['title'];
@@ -12,9 +11,13 @@ if (!isset($vars['entity']['abstract'])) {
     $abstract = $vars['entity']['abstract'];
 }
 
+// url
+$url = conf::getSchemeWithServerName();
+$url.= $_SERVER['REQUEST_URI'];
+$url = rawurlencode($url);
+
 $email_abstract = $abstract . "\n\n" . $url;
 
-$url = rawurlencode($url);
 $subject = rawurlencode($vars['entity']['title']);
 $abstract = rawurlencode($abstract);
 $email_abstract = rawurlencode($email_abstract);
