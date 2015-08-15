@@ -14,7 +14,7 @@ if (!isset($vars['entity']['abstract'])) {
 // url
 $url = conf::getSchemeWithServerName();
 $url.= $_SERVER['REQUEST_URI'];
-$url = rawurlencode($url);
+//$url = rawurlencode($url);
 
 $email_abstract = $abstract . "\n\n" . $url;
 
